@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+	public class main{
+		
+		public static void main(String[] args) {
+			
+			Scanner can = new Scanner(System.in);
+			
+			System.out.println("What is your age");
+			int age = can.nextLine();
+			System.out.println("You are " + age + "years old" );
+		}
+	}

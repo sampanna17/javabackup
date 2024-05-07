@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+	public class main{
+		
+		public static void main(String[] args) {
+			
+			Scanner can = new Scanner(System.in);
+			
+			System.out.println("What is your name");
+			String name = can.nextline();
+			System.out.println("Welcome boss" + name );
+		}
+	}

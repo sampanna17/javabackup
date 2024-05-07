@@ -1,0 +1,11 @@
+
+
+	public class main{
+		
+		public static void main(String[] args) {
+int friend = 10;
+	friend = friend / 3;
+			
+			System.out.println(friend);
+		}
+	}

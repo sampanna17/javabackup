@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;StudentManagementSystem-JEE-Framework-week5&apos; to &apos;week5&apos;" description="Rename resource &apos;StudentManagementSystem-JEE-Framework-week5&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/StudentManagementSystem-JEE-Framework-week5" name="week5" stamp="1713772450834" updateReferences="true"/>
+</session>

@@ -1,0 +1,14 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	int x = 12;
+	int y = 13;
+	int z;
+	z=x;
+	x=y;
+	System.out.println("x is " + y);
+	System.out.println("y is" + z);
+	}
+
+}

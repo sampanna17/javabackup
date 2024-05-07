@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		int x= 69;
+System.out.println("\tI love " + x );
+System.out.println("\tIts aweome");
+System.out.println("\tI love you");
+
+	}
+
+}

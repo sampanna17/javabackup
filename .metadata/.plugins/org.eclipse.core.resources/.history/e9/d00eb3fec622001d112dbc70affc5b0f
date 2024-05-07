@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	long x = 1231233443453553L;
+	float y = 3.14f;
+char symbol = '&';
+	
+	System.out.println("my number is : " + symbol);
+	}
+
+}

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* css for header */
+header {
+  position: relative;
+  background-color: #5177a0;
+  padding: 25px;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 100vh;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #333;
+  width: 190px;
+  z-index: 1;
+  top: 100%;
+  left: -10px;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 22px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #728ee2;
+  color: black;
+}
+.dropdown-content a img {
+  mix-blend-mode: multiply; /*  removeing the background white colour of the image */
+}
+/* ---------------profile container --------------------*/
+.section {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  max-width: 50%;
+  position: absolute; /* Position relative for absolute positioning of child elements */
+}
+
+h1 {
+  position: fixed;
+  left: 22%;
+  top: 40px;
+}
+h2 {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  font-size: xx-large;
+  font-weight: 900px;
+}
+p {
+  position: absolute;
+  left: 40%;
+  top: 23%;
+  color: #5085e1;
+}
+.acc-details {
+  position: absolute;
+  top: 47%;
+  left: 28%;
+  transform: translateX(-50%); /* Center horizontally */
+  color: #000000;
+  font-size: x-large;
+  font-weight: bolder;
+  font-weight: 700;
+}
+
+small {
+  position: absolute;
+  left: 40.2%;
+  top: 28%;
+}
+section img {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  border: 2px solid black;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  margin: 20px auto; /* Center the image horizontally */
+  display: block; /* Ensure the image is displayed as a block element */
+}
+
+/* cass for the table */
+.profile-table {
+  top: 55%;
+  width: 55%; /* Set table width to 100% */
+  border-collapse: collapse;
+  left: 20%;
+  position: absolute;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.profile-table td {
+  padding: 15px;
+  border-bottom: 1px solid #2e2828;
+}
+
+.profile-table input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* ------------------edit button ------------------*/
+.edit-btn {
+  background-color: #ececec;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  cursor: pointer;
+
+  position: absolute;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
+.edit-btn:hover {
+  color: #0056b3;
+}
+
+.edit-sign {
+  margin-left: 5px;
+}
+
+.facebook {
+  width: 26px;
+  mix-blend-mode: multiply;
+  background: none;
+  position: absolute;
+  top: 268px;
+  left: 620px;
+}
+.instagram {
+  width: 20px;
+  mix-blend-mode: multiply;
+  background: none;
+  position: absolute;
+  top: 35%;
+  left: 655px;
+}
+.linkedin {
+  width: 30px;
+  mix-blend-mode: multiply;
+  background: none;
+  position: absolute;
+  top: 267px;
+  left: 683px;
+}

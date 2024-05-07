@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+	public class main{
+		
+		public static void main(String[] args) {
+			
+			String name = JOptionPane.showInputDialog("Enter you name");
+			String sex = JOptionPane.showInputDialog("Are you male or female?");
+			JOptionPane.showMessageDialog(null, "Hello " + name);
+//			JOptionPane.showMessageDialog(null, "You are " + age + " years old");
+			JOptionPane.showMessageDialog(null, " NO sir .You are a fucking gay" );
+			
+			
+		}
+	}
+
+
+	

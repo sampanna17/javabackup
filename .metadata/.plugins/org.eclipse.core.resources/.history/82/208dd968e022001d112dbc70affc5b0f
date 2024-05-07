@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+	public class main{
+		
+		public static void main(String[] args) {
+			
+			String name = JOptionPane.showInputDialog("Enter you name");
+			String sex = JOptionPane.showInputDialog("Are you a boy or girl?");
+			JOptionPane.showMessageDialog(null, "Hello " + name);
+//			JOptionPane.showMessageDialog(null, "You are " + age + " years old");
+			JOptionPane.showMessageDialog(null, " You are one of most beautiful girl in the universe" );
+			
+			
+		}
+	}
+
+
+	

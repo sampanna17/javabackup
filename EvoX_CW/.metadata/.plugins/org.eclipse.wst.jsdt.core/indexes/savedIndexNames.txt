@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\DELL\Downloads\EvoX\EvoX\EvoXcw\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1084409748.index
+3661096165.index
+3426573481.index
+1511949607.index
+2476742786.index
+2295224497.index

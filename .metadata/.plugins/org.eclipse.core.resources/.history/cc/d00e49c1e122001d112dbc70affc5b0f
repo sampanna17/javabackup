@@ -1,0 +1,17 @@
+import java.util.Scanner;
+ 	public class main{
+ 		public static void main(String[] args) {
+ 			Scanner scan = new Scanner(System.in);
+ 			System.out.println("Enter value of x  ");
+ 			 double  x = scan.nextDouble();
+ 			 System.out.println("Enter value of y ");
+ 			 double y = scan.nextDouble();
+ 			 
+ 			double z = Math.sqrt((x*x)+(y*y));
+ 			System.out.println("Hyptenious is " + z);
+ 			scanner.close();
+ 			
+ 			 
+ 			
+ 		}
+ 	}

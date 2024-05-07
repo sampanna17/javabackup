@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\DELL\Downloads\EvoX\EvoX\EvoXcw\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3432653649.index
+1084409748.index

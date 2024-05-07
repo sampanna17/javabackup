@@ -1,0 +1,9 @@
+
+
+	public class main{
+		
+		public static void main(String[] args) {
+			int friend = 10;
+			System.out.println("friend");
+		}
+	}

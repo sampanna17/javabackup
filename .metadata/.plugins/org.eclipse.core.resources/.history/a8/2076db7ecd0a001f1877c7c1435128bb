@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background-color:#c3e0ec;
+}
+.container{
+    background-color: white;
+    width:500px;
+    padding: 30px;
+    margin:130px auto 0; 
+    border-top: 5px solid#1F4959;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+    font-size: 22px;
+    line-height: 24px;
+    padding:40px;
+    text-align: center;
+    color:#011425
+
+}
+.input-name
+{
+    width:90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.lock{
+    padding:8px 11px;
+}
+ 
+.name{
+    width: 45%;
+    padding:8px 0 8px 40px ;
+}
+
+.input-name span{
+    margin-left: 35px;
+
+}
+.text-name{
+    width:100%;
+    padding:8px 0 8px 40px ;
+}
+
+.input-name i 
+{
+    position: absolute;
+    font-size: 18px;
+    color:#1f4959;
+    border-right: 1px solid #cccccc;
+   
+} 
+.email{
+    padding:8px;
+}
+.input-name i.fa-lock{
+    padding: 8px;
+}
+.input-name i.fa-phone{
+    padding: 8px;
+}
+
+.text-name,name{
+    border: 1px solid #cccccc;
+    outline: none;
+}
+r1{
+    margin-right: 4px ; 
+}
+
+.button{
+    background-color:#1f4959;
+    color: white;
+    height: 30px;
+    width:100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color:#c3e0ec;
+}

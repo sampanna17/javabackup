@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+@font-face {
+  font-family: awesomeIcons;
+  font-weight: normal;
+  src: url('fontAwesome.woff') format('woff');
+}
+
+.font-awesomeIcons {
+  font-family: awesomeIcons, @font-default-family;
+}
+#footer {
+  background-color: #333; 
+  color: #ffff; 
+  padding: 20px;
+  text-align: center;
+}
+
+#footer p {
+  margin-bottom: 10px;
+}
+
+#footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+#footer a:hover {
+  color: #fff; 
+}

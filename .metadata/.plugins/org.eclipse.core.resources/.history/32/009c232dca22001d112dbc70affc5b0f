@@ -1,0 +1,14 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	String x = "Sampanna";
+	String y = "Piya ";
+	String z;
+	z = x;
+	x = y;
+	System.out.println("x is " + x);
+	System.out.println("y is " + z);
+	}
+
+}

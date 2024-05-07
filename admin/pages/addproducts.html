@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/addproducts.css" />
+  <title></title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <!-- menubar -->
+
+      <button class="dropbtn">&#9776;</button>
+      <div class="dropdown-content">
+        <a href="profile.html"><img src="../images/profile.png" alt="Profile Logo" /> Profile</a>
+        <a href="dashboard.html"><img src="../images/dashboard.jpg" alt="Dashboard Logo" /> Dashboard</a>
+        <a href="addproducts.html"><img src="../images/addproducts.png" alt="Profile Logo" /> Add Products</a>
+        <a href="total-products.html"><img src="../images/product.jpg" alt="Total Products Logo" /> Total
+          Products</a>
+        <a href="order-list.html"><img src="../images/order.png" alt="Order List Logo" /> Order List</a>
+        <a href="users.html"><img src="../images/user.png" alt="Users Logo" /> Users</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Add a New Item</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" name="product-name" required />
+      </div>
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="image">Images:</label>
+        <input type="file" id="image" name="image" accept="image/*" required />
+      </div>
+      <div class="form-group">
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" required />
+      </div>
+      <button type="submit">Add Item</button>
+    </form>
+  </div>
+</body>
+
+</html>

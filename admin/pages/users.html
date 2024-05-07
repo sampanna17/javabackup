@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/user.css" />
+  <title></title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">&#9776;</button>
+      <div class="dropdown-content">
+        <a href="profile.html"><img src="../images/profile.png" alt="Profile Logo" /> Profile</a>
+        <a href="dashboard.html"><img src="../images/dashboard.jpg" alt="Dashboard Logo" /> Dashboard</a>
+        <a href="addproducts.html"><img src="../images/addproducts.png" alt="Profile Logo" /> Add Products</a>
+        <a href="total-products.html"><img src="../images/product.jpg" alt="Total Products Logo" /> Total
+          Products</a>
+        <a href="order-list.html"><img src="../images/order.png" alt="Order List Logo" /> Order List</a>
+        <a href="users.html"><img src="../images/user.png" alt="Users Logo" /> Users</a>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------user table--------------------- -->
+  <h1>User Management</h1>
+  <div class="container">
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <!-- New column -->
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Type</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+          <td>Admin</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Alice Johnson</td>
+          <td>alice@example.com</td>
+          <td>Customer</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Michael Brown</td>
+          <td>michael@example.com</td>
+          <td>Admin</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Sarah Lee</td>
+          <td>sarah@example.com</td>
+          <td>Customer</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Robert Miller</td>
+          <td>robert@example.com</td>
+          <td>Admin</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Emily Davis</td>
+          <td>emily@example.com</td>
+          <td>Customer</td>
+          <td><button class="delete-btn">Delete</button></td>
+        </tr>
+        <!-- Add similar rows for other users -->
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
